@@ -1,4 +1,4 @@
-Flutter livescore demo web app.
+Flutter livescore demo app.
 
 ## Getting Started
 
