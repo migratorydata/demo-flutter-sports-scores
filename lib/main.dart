@@ -135,7 +135,7 @@ class TableCellPadded extends StatelessWidget {
   TableCell build(BuildContext context) => TableCell(
       verticalAlignment: TableCellVerticalAlignment.middle,
       child: Padding(
-          padding: padding ?? const EdgeInsets.all(5.0),
+          padding: padding ?? const EdgeInsets.all(0.0),
           child: Container(
               color: color, alignment: Alignment.center, child: child)));
 }
