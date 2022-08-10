@@ -18,7 +18,7 @@ install MigratoryData or MigratoryData & Kafka as detailed [here](INSTALL.md).
 Download this project by cloning it with the following command or by using any other download method:
 
 ```bash
-$ git clone git@github.com:migratorydata/demo-flutter-livescore.git
+$ git clone https://github.com/migratorydata/demo-flutter-sports-scores.git
 ```
 
 ## Running in dev mode
