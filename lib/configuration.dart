@@ -5,10 +5,10 @@ import 'dart:typed_data';
 
 import 'package:migratorydata_client_dart_v6/client.dart';
 
-const token = 'some-token';
-const encryption = false;
 const server = 'demo.migratorydata.com';
-const subjectPrefix = '/games/football/';
+const encryption = true;
+const token = 'some-token';
+const subjectPrefix = '/matches/football/';
 
 final rng = Random();
 

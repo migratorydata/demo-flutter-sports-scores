@@ -38,14 +38,14 @@ class _MatchesListWidgetState extends State<MatchesListWidget>
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Livescore Demo'),
+        title: const Text('Demo'),
         backgroundColor: Colors.green,
       ),
       body: Column(children: <Widget>[
         const Padding(
           padding: EdgeInsets.all(10.0),
           child: Text(
-            "Football Champions League Livescores",
+            "Live Sports Scores",
             textScaleFactor: 2,
             style: TextStyle(fontWeight: FontWeight.bold),
           ),

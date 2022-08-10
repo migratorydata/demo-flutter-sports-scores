@@ -1,16 +1,30 @@
-Flutter livescore demo app.
+# Sports Scores Demo using Flutter and MigratoryData w/ or w/o Kafka
 
-## Getting Started
+This is a multi-platform app written in Dart with Flutter UI &mdash; which can be compiled as a web app, or as an Android or iOS mobile app, or as a desktop app for MacOS, Windows, or Linux. Please refer to the blog post [Building realtime web and mobile apps that scale to millions of users with Flutter and Kafka](https://migratorydata.com/blog/migratorydata-with-flutter-and-kafka/) for more context.
 
-This project is a starting point for a Flutter application using MigratoryData Client Dart API.
+## Prerequisites
 
-Run project from command line running command:
+We assume you have the Flutter framework installed. Otherwise, get it as detailed [here](https://docs.flutter.dev/get-started/install).
+
+## Use the existing MigratoryData deployment
+
+This app is configured to connect to a MigratoryData deployment available at `demo.migratorydata.com`, so you can run it  without installing MigratoryData or Kafka.
+
+However, if you wish to run this demo with your MigratoryData deployment or your MigratoryData & Kafka deployment please 
+install MigratoryData or MigratoryData & Kafka as detailed [here](INSTALL.md).
+
+## Get the code
+
+Download this project by cloning it with the following command or by using any other download method:
 
 ```bash
-flutter run
+$ git clone git@github.com:migratorydata/demo-flutter-livescore.git
 ```
 
-A few resources to get you started:
+## Running in dev mode
 
-- [MigratoryData Server](https://migratorydata.com)
-- [Dart Client API](https://pub.dev/packages/migratorydata_client_dart_v6)
+To compile and run the example execute the following command:
+
+```bash
+$ flutter run
+```
